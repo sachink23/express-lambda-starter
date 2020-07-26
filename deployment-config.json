@@ -1,0 +1,7 @@
+{
+  "functionName": "express-lambda-starter-test",
+  "description": "Boiler plate for deploying AWS lambda functions using express-js with typescript support",
+  "memorySize": 1024,
+  "timeOut": 10,
+  "awsRegion": "ap-south-1"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "express-lambda-starter",
+  "version": "1.0.0",
+  "description": "Boiler plate for deploying AWS lambda functions using express-js with typescript support",
+  "main": "./dist/express-app/bin/www.js",
+  "scripts": {
+    "start": "node ./dist/express-app/bin/www.js",
+    "dev": "nodemon ./src/bin/www.ts",
+    "build": "tsc -p . && webpack --config webpack.config.js",
+    "deploy": "node dist/express-app/bin/deploy/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachink23/express-lambda-starter.git"
+  },
+  "keywords": [
+    "express-js",
+    "typescript",
+    "aws-lambda"
+  ],
+  "author": "Sachin Kekarjawalekar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sachink23/express-lambda-starter/issues"
+  },
+  "homepage": "https://github.com/sachink23/express-lambda-starter#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.24",
+    "jszip": "^3.5.0",
+    "nodemon": "^2.0.4",
+    "ts-loader": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.720.0",
+    "express": "^4.17.1",
+    "serverless-http": "^2.5.0"
+  }
+}
