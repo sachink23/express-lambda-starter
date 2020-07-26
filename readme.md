@@ -1,6 +1,9 @@
 _Express Lambda Starter_
 ---
 Boilerplate for getting started with express-js development with typescript and deploy it on aws-lambda.
+
+![Deploy to AWS Lambda](https://github.com/sachink23/express-lambda-starter/workflows/Deploy%20to%20AWS%20Lambda/badge.svg)
+
 ### Prerequisites
 
 You need to have node 12x version installed on your computer.
