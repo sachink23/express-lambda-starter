@@ -1,6 +1,6 @@
 _Express Lambda Starter_
 ---
-Boilerplate for getting started with express-js development with typescript and deploy it on aws-lambda.
+Boilerplate to automate express-js deployment with typescript on aws-lambda.
 
 ![Deploy to AWS Lambda](https://github.com/sachink23/express-lambda-starter/workflows/Deploy%20to%20AWS%20Lambda/badge.svg)
 
