@@ -6,7 +6,7 @@ Boilerplate to automate express-js deployment with typescript for aws-lambda.
 
 ### Prerequisites
 
-You need to have node 12x version installed on your computer.
+You need to have node 14x version installed on your computer.
 
 ### Getting Started
 
