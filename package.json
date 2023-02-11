@@ -28,7 +28,7 @@
     "@types/express": "^4.17.7",
     "@types/node": "^14.0.24",
     "jszip": "^3.7.0",
-    "nodemon": "^2.0.4",
+    "nodemon": "^2.0.20",
     "ts-loader": "^8.0.1",
     "ts-node": "^8.10.2",
     "tslint": "^6.1.2",
